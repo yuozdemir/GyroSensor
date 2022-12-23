@@ -1,0 +1,61 @@
+
+ROM used:   3665/8192 (45%)
+            3880/8192 (47%) including unused fragments
+
+            3.1 Average locations per line
+            12.0 Average locations per statement
+
+RAM used:   16/368 (4%) at main() level
+            22/368 (6%) worst case
+
+Stack used: 0 worst case (0 in main + 0 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  484   285  93  pic_project.c
+  661     0   0  ..\..\..\..\Program Files (x86)\PICC\Devices\16F877a.h
+   56    20   7  ..\..\..\..\Program Files (x86)\PICC\Drivers\MPU6050.C
+----- -----
+ 1201   305 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     21   1    1             @delay_ms1
+ Inline         3             @I2C_READ_1
+0     74   2    1             @I2C_WRITE_1
+0     57   2    2   102  1.8  mpu6050_write
+0    160   4    2   167  2.4  mpu6050_read
+0     30   1    0   174  1.8  mpu6050_init
+0    444  12    0  1574  3.9  x0
+0    444  12    0  1574  3.9  x1
+0    444  12    0  1574  3.9  x2
+1    458  12    0  1527  3.9  x3
+1    458  12    0  1479  3.9  x4
+1    458  12    0  1479  3.9  x5
+1    458  12    0  1479  3.9  x6
+0    155   4    0  1246  4.9  MAIN
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               11
+    Statements              305
+    Comments                136
+    Volume (V)              18420
+    Difficulty (D)          38.4
+    Effort to implement (E) 706894
+    Time to implement (T)   10 hours, 55 minutes
+    Est Delivered Bugs (B)  3
+    Cyclomatic Complexity   50
+    Maintainability (MI)    40
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF  1829  215  
+00800-00FFF  1832  216  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+

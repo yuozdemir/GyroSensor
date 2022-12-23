@@ -1,0 +1,4 @@
+>>> Warning 203 "pic_project.c" Line 462(1,1): Condition always TRUE
+      Memory usage:   ROM=45%      RAM=4% - 6%
+      0 Errors,  1 Warnings.
+Build Successful.
