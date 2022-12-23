@@ -1,0 +1,7 @@
+Yusuf ÖZDEMİR
+
+Proje: MPU6050 ile su terazisi yapımı
+	->  8x8 matris için ledler tek tek lehimlenmiş ve 'pic16f877a' mikrodenetleyicimizin
+A ve D pinlerine bağlantıları yapılmıştır sonrasında ise 9V pilin girdisi bir voltaj regülatörü
+yardımı ile gerilim 5V a düşürülüp devreye aktarılmıştır. Son olarak kod kısmında ise 
+MPU6050 sensörümüzden gelen verilerin her olasılığı için 8x8 led matrisimizde bir durum ataması yapılmıştır.
